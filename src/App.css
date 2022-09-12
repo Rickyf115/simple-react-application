@@ -1,7 +1,8 @@
 .App {
   text-align: left;
-  padding: 100px;
-  padding-right: 50%;
+  padding-top: 100px;
+  padding-right: 20%;
+  padding-left:20%;
 }
 
 .App-logo {
@@ -9,12 +10,13 @@
   pointer-events: none;
 }
 
-.item {
-  background-color: #d0cfca;
+.todo-list {
+  background-color: #ebe9e2;
+  padding: 50px;
 }
 
-.headerBox {
-  background-color: #ebe9e2;
+.item {
+  background-color: #d0cfca;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -50,8 +50,9 @@ export default function TodoList() {
                     }
                     return null
                 })}
-                <TextField size="medium" variant="filled" type="text" value={currentItem} onChange={(event => setCurrentItem(event.target.value))} />
-                <Button size="large" variant="contained" onClick={addTodoItem}>Add task</Button> 
+                <TextField color="secondary" size="medium" variant="filled" type="text" value={currentItem} onChange={(event => setCurrentItem(event.target.value))} />
+                <br />
+                <Button style={{ backgroundColor: "#81c1c4" }} size="large" variant="contained" onClick={addTodoItem}>Add task</Button> 
                 <Typography className="headerbox" sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
                 Completed Items
                 </Typography>
